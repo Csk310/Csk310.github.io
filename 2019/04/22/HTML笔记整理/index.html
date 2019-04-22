@@ -6,18 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Csk310博客</title>
+  <title>HTML与CSS笔记整理---1 | Csk310博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="一个小白，但努力地活着">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Csk310博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="笔记内容：1. HTMl三大重点2. 头部结构3. 常用块级标签4. 常用行级标签5. 表格标签6. 表单标签">
+<meta name="keywords" content="学习随笔,HTML,CSS">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HTML与CSS笔记整理---1">
+<meta property="og:url" content="http://yoursite.com/2019/04/22/HTML笔记整理/index.html">
 <meta property="og:site_name" content="Csk310博客">
-<meta property="og:description" content="一个小白，但努力地活着">
+<meta property="og:description" content="笔记内容：1. HTMl三大重点2. 头部结构3. 常用块级标签4. 常用行级标签5. 表格标签6. 表单标签">
 <meta property="og:locale" content="Simplified Chinese">
+<meta property="og:updated_time" content="2019-04-22T07:26:30.444Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Csk310博客">
-<meta name="twitter:description" content="一个小白，但努力地活着">
+<meta name="twitter:title" content="HTML与CSS笔记整理---1">
+<meta name="twitter:description" content="笔记内容：1. HTMl三大重点2. 头部结构3. 常用块级标签4. 常用行级标签5. 表格标签6. 表单标签">
   
     <link rel="alternative" href="/atom.xml" title="Csk310博客" type="application/atom+xml">
   
@@ -153,16 +155,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-HTML笔记整理" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-HTML笔记整理" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/04/22/HTML笔记整理/">HTML与CSS笔记整理---1</a>
+    <h1 class="article-title" itemprop="name">
+      HTML与CSS笔记整理---1
     </h1>
   
 
@@ -176,11 +176,66 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>笔记内容：<br><a href="#1">1. HTMl三大重点</a><br><a href="#" name="t">2. 头部结构</a><br><a href="#3">3. 常用块级标签</a><br><a href="#" name="c">4. 常用行级标签</a><br><a href="#5">5. 表格标签</a><br><a href="#" name="b">6. 表单标签</a></p>
-        
-          <a class="article-more-a" href="/2019/04/22/HTML笔记整理/#more">more >></a>
-        
+<a id="more"></a>
+<div id="#1"><h2>HTMl三大重点</h2></div><br>HTMl中比较重要的三大重点是：盒模型(div,span等)、浮动(float)、定位(position)这三个问题。<br><br>在其下列出比较常用的标签:<br><br><div id="t"><h2>头部结构</h2></div><br>1.meta标签<br>属性:<br>    (1) charset 设置文档字符及编码格式(编码格式有：UTF-8（万国码）、GBK（扩展国际标码，简体中文）)<br>    (2) name 主要用于给搜索引擎提供必要信息<br>    (3) content 可以写多个内容<br>    (4) keywords 网站关键字<br>    (5) description 网页描述,搜索引擎显示在title下面的内容<br>2.link标签<br>属性:<br>    (1) rel 用于表面被链接文件与当前文件关系，icon表明被链接图片是当前网页的icon图标。<br>    (2) type 表明被链接文件是什么类型，可省略<br>    (3) href 表明链接文件的地址<br><br><br>3.title标签<br>    网页的标题，浏览器网页选项上的文字<br><br><div id="#3"><h2>常用块级标签</h2></div>
+
+<ol>
+<li><code>&lt;h1&gt;&lt;/h1&gt;(1~6）</code>标题标签</li>
+<li><code>&lt;hr/&gt;</code>水平线</li>
+<li><code>&lt;p&gt;&lt;/p&gt;</code>段落</li>
+<li><code>&lt;div&gt;&lt;/div&gt;</code>分区标签</li>
+<li><code>&lt;ol&gt;&lt;li&gt;&lt;/li&gt;&lt;/ol&gt;</code>有序列表</li>
+<li><code>&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;</code>无序列表</li>
+<li><code>&lt;dl&gt;&lt;dt&gt;标题&lt;/dt&gt;&lt;dd&gt;描述像&lt;/dd&gt;&lt;/dl&gt;</code>定义描述列表</li>
+</ol>
+<div id="c"><h2>常用行级标签</h2></div>
+
+<ol>
+<li><code>&lt;i&gt;&lt;/i&gt;</code>倾斜</li>
+<li><code>&lt;b&gt;&lt;/b&gt;</code>加粗</li>
+<li><code>&lt;u&gt;&lt;/u&gt;</code>下划线</li>
+<li><code>&lt;s&gt;&lt;/s&gt;</code>删除线</li>
+<li><code>&lt;em&gt;&lt;/em&gt;</code>强调</li>
+<li><code>&lt;span&gt;&lt;/span&gt;</code>文本</li>
+<li><code>&lt;img /&gt;</code>图片<br>属性:<br> (1). src:图片应用路径<br> (2). title:图片的标题，鼠标停放在上面时显示<br> (3). alt:当图片无法加载时显示的文字<br> (4). align:图片周围的文字，相对于图片的排列方式</li>
+</ol>
+<div id="#5"><h2>表格标签</h2></div>
+
+<ol>
+<li><code>&lt;table&gt;&lt;/table&gt;</code>表格框<br>属性:<br> (1). border:表示表格边框，只能数字<br> (2). cellspcing:单元格与单元格之间的间隙(该值为0时，单元格裱框线并不会合并)<br> (3). cellpadding:单元格内边距<br> (4). align:表格位置</li>
+<li><code>&lt;tr&gt;&lt;/tr&gt;</code>表格行</li>
+<li><code>&lt;td&gt;&lt;/td&gt;</code>表格列<br>属性：<br> (1). align:设置单元格中的文字，在单元格中的水平对齐方式(left/center/right)<br> (2). valign:设置单元格文字在单元格中的垂直对齐方式(top/center/bottom)<br> (3). nowrap:设置单元格中的文字不断行(nowrap=”nowrap”)</li>
+<li><code>&lt;th&gt;&lt;/th&gt;</code>表格标题列</li>
+</ol>
+<div id="b"><h2>表单标签</h2></div>
+
+<p> form<br> 属性:<br>     (1). action:表单需要提交的服务器地址<br>     (2). method:表单提交数据使用的方法,get/post<br>         ① get传参使用URL传递，所有参数在地址栏可见，不安全；get传参数据量有限。<br>         ②post传参使用http请求传递，比较安全；post可以传递大量数据。<br>    (URL传参的形式：链接URL地址?name1=value1&amp;name2=value2)</p>
+<p>input<br>属性:<br>    (1). type:设置input 输入类型(text/password/radio(单选框)/checkbox(复选框)/file(文件上传)/submit(提交按钮)/reset(重置表单数据)/image(图片提交按钮)/button(按钮))<br>textarea文本域<br>属性:<br>    (1). auto:自动，根据文字多少自动决定是否显示滚动条<br>    (2). readonly=”readonly”设置为只读模式，不允许编辑。<br>    (3). style=”overflow: ;” 设置当文字超出区域时，如何处理。</p>
+<p>select下拉选择控件<br>属性：<br>    (1). name:应该写在select上，所有选项只有一个name<br>    (2). multiple=”multiple” 设置select控件为多选<br>    (3).<br>label标签:<br>用于绑定一个表单元素</p>
+
       
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
       
     </div>
     <div class="article-info article-info-index">
@@ -208,16 +263,75 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/04/22/HTML笔记整理/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/04/22/HTML笔记整理/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2019/03/30/关于hexo头像问题/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">关于hexo的头像问题</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -232,174 +346,32 @@
         </div>
         
         
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-关于hexo头像问题" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/03/30/关于hexo头像问题/">关于hexo的头像问题</a>
-    </h1>
-  
-
-        
-        <a href="/2019/03/30/关于hexo头像问题/" class="archive-article-date">
-  	<time datetime="2019-03-30T09:15:46.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-30</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>#头像问题</p>
-<p>在浏览博客时发现了主页有头像，而在点击进入文章的时候头像消失了，不禁开始思考是哪里出现问题了</p>
-<p>随后找到了相关的解决问题的<a href="https://github.com/litten/hexo-theme-yilia/issues/288" target="_blank" rel="noopener">网页</a></p>
-<p>在我的头像路径设置中少了一个“/”导致在进入文章的时候头像读取不出来。</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">学习随笔</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">yilia</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/03/30/关于hexo头像问题/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">1.</span> <span class="toc-text">HTMl三大重点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">2.</span> <span class="toc-text">头部结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.</span> <span class="toc-text">常用块级标签</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">4.</span> <span class="toc-text">常用行级标签</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">5.</span> <span class="toc-text">表格标签</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">6.</span> <span class="toc-text">表单标签</span></a></li></ol>
+                    </div>
+                </span>
             </div>
         </div>
         
-        
     </div>
 </aside>
 
 
 
-
   
-    <article id="post-我的第一篇博客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/03/21/我的第一篇博客/">学习使用hexo博客</a>
-    </h1>
   
 
-        
-        <a href="/2019/03/21/我的第一篇博客/" class="archive-article-date">
-  	<time datetime="2019-03-21T13:27:46.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-21</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="一、博客的基本信息"><a href="#一、博客的基本信息" class="headerlink" title="一、博客的基本信息"></a>一、博客的基本信息</h2><p> 可以在hexo文件夹下面找到“config.yml”文件，笔者用的SublimeText3打开，里面可以看到排序整齐的一些属性和一些注释信息。<br> 可以在title、subtitle、author简单填写自己的信息。<br>
-        
-          <a class="article-more-a" href="/2019/03/21/我的第一篇博客/#more">more >></a>
-        
-      
-
-      
-    </p></div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">学习随笔</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">yilia</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/03/21/我的第一篇博客/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
+  
 
   
+
   
 
 
@@ -422,8 +394,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
